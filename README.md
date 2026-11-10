@@ -1,11 +1,11 @@
 # Detection of Mental Health Disorders from Social Media Text Data
 
-**MSc Dissertation** · Evangelia Tsakanika · MSc Artificial Intelligence and Data Science
+**MSc Dissertation** · Evangelia Tsakanika · MSc Artificial Intelligence and Data Science <br>
 CITY College, University of York Europe Campus · 2026
 
 ## Overview
 
-Machine learning models trained on Reddit posts report near-perfect accuracy in detecting signs of mental health conditions. Their labels, however, usually come from the community (subreddit) in which a post was written, not from what the post expresses. This dissertation examines what such models actually learn. It compares five classical models and a fine-tuned RoBERTa transformer on two public Reddit corpora whose labels were produced in different ways — by community membership and by human annotation — and evaluates them in-domain, on unseen communities and across the two corpora.
+Machine learning models trained on Reddit posts report near-perfect accuracy in detecting signs of mental health conditions. Their labels, however, usually come from the community (subreddit) in which a post was written, not from what the post expresses. This dissertation examines what such models actually learn. It compares five classical models and a fine-tuned RoBERTa transformer on two public Reddit corpora whose labels were produced in different ways, by community membership and by human annotation — and evaluates them in-domain, on unseen communities and across the two corpora.
 
 The central finding is an asymmetry: models trained on community labels generalise well to new communities but far less well to human-annotated text, where their errors follow the topic of each community, whereas a model trained on fewer than 3,000 human-annotated excerpts transfers to the community-labelled data almost without loss.
 
@@ -29,8 +29,8 @@ The central finding is an asymmetry: models trained on community labels generali
 
 The datasets are **not included** in this repository, in line with their terms of release and to protect the privacy of the authors of the posts. Both are publicly available for research:
 
-- **Hasan and Saquer benchmark suite** (four tasks; community labels) — Zenodo, DOI [10.5281/zenodo.17114739](https://doi.org/10.5281/zenodo.17114739)
-- **Dreaddit** (stress; human annotation) — E. Turcan and K. McKeown, LOUHI workshop at EMNLP 2019, available from the [authors' page](http://www.cs.columbia.edu/~eturcan/data/dreaddit.zip)
+- **Hasan and Saquer benchmark suite** (four tasks; community labels) - Zenodo, DOI [10.5281/zenodo.17114739](https://doi.org/10.5281/zenodo.17114739)
+- **Dreaddit** (stress; human annotation) - E. Turcan and K. McKeown, LOUHI workshop at EMNLP 2019, available from the [authors' page](http://www.cs.columbia.edu/~eturcan/data/dreaddit.zip)
 
 The notebook expects the released CSV files, unchanged, in:
 
@@ -67,18 +67,3 @@ Python 3.13 · PyTorch 2.11 · Hugging Face Transformers 5.21 · scikit-learn 1.
 
 The study uses only data publicly released for research. No attempt was made to identify, contact or profile any author, and no user information beyond the released text was used. Notebook outputs that display the text of posts have been cleared, and no posts are quoted in the dissertation. The models are research artefacts for studying detection and generalisation; they have not been validated for clinical or monitoring use.
 
-## Citation
-
-```bibtex
-@mastersthesis{tsakanika2026detection,
-  author = {Tsakanika, Evangelia},
-  title  = {Detection of Mental Health Disorders from Social Media Text Data},
-  school = {CITY College, University of York Europe Campus},
-  type   = {MSc dissertation},
-  year   = {2026}
-}
-```
-
-## Copyright
-
-© 2026 Evangelia Tsakanika. All rights reserved.
