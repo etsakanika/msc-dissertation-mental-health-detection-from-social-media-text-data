@@ -1,0 +1,22 @@
+task,model,train,validation,test,gap (train - test)
+dreaddit,surface,0.679,,0.662,0.017
+dreaddit,tfidf,0.942,,0.718,0.224
+dreaddit,svm,1.0,,0.728,0.271
+dreaddit,nb,0.91,,0.656,0.253
+general,surface,0.852,,0.849,0.003
+general,tfidf,0.99,,0.986,0.003
+general,svm,0.999,,0.992,0.008
+general,nb,0.969,,0.968,0.001
+suicidality,surface,0.672,,0.669,0.003
+suicidality,tfidf,0.943,,0.912,0.031
+suicidality,svm,0.986,,0.916,0.07
+suicidality,nb,0.914,,0.895,0.019
+bipolar,surface,0.687,,0.682,0.006
+bipolar,tfidf,0.984,,0.969,0.015
+bipolar,svm,0.999,,0.974,0.024
+bipolar,nb,0.84,,0.828,0.012
+multiclass,surface,0.299,,0.295,0.004
+multiclass,tfidf,0.969,,0.94,0.029
+multiclass,svm,0.995,,0.947,0.048
+multiclass,nb,0.871,,0.84,0.031
+dreaddit,roberta-base,0.913,0.861,0.821,0.092

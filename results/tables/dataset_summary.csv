@@ -1,0 +1,6 @@
+task,classes,train,eval: test,minority class %,median words,p95 words,% > 200 words,eval: external
+dreaddit,2,2817,704,47.4,80,143,0.7,
+general,2,95753,23899,49.9,122,618,31.0,23986.0
+suicidality,2,30177,7536,49.1,128,559,31.2,
+bipolar,2,40056,10006,46.7,121,470,26.6,
+multiclass,7,83966,20982,14.3,159,683,39.6,

@@ -1,0 +1,6 @@
+task,majority,first-person only,genre & format only (7),all 8 surface,tfidf,genre share of surface gain,first-person share of surface gain
+dreaddit,0.339,0.645,0.598,0.662,0.718,0.801,0.945
+general,0.334,0.831,0.756,0.849,0.986,0.819,0.965
+suicidality,0.337,0.648,0.649,0.669,0.912,0.94,0.937
+bipolar,0.348,0.651,0.631,0.682,0.969,0.846,0.907
+multiclass,0.036,0.205,0.253,0.295,0.94,0.836,0.654

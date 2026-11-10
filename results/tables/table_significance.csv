@@ -1,0 +1,21 @@
+task,comparison,delta macro-F1,ci_low,ci_high,p,p (Holm),"significant (Holm, 5%)"
+dreaddit,tfidf vs surface,0.0552,0.0163,0.0921,0.005,0.020,True
+dreaddit,svm vs tfidf,0.0106,-0.0092,0.0305,0.150,0.150,False
+dreaddit,tfidf vs nb,0.0613,0.027,0.0979,< 0.001,0.020,True
+dreaddit,roberta-base vs tfidf,0.0981,0.0634,0.1336,< 0.001,0.020,True
+general,tfidf vs surface,0.1375,0.1331,0.1421,< 0.001,0.020,True
+general,svm vs tfidf,0.0054,0.0044,0.0064,< 0.001,0.020,True
+general,tfidf vs nb,0.0188,0.0168,0.0206,< 0.001,0.020,True
+general,roberta-base vs tfidf,0.0084,0.007,0.0099,< 0.001,0.020,True
+suicidality,tfidf vs surface,0.2435,0.2324,0.2552,< 0.001,0.020,True
+suicidality,svm vs tfidf,0.0036,-0.0004,0.0076,0.035,0.070,False
+suicidality,tfidf vs nb,0.0178,0.0126,0.0232,< 0.001,0.020,True
+suicidality,roberta-base vs tfidf,0.0199,0.0143,0.026,< 0.001,0.020,True
+bipolar,tfidf vs surface,0.2869,0.2776,0.2964,< 0.001,0.020,True
+bipolar,svm vs tfidf,0.0054,0.0035,0.0074,< 0.001,0.020,True
+bipolar,tfidf vs nb,0.141,0.1336,0.1482,< 0.001,0.020,True
+bipolar,roberta-base vs tfidf,0.011,0.0075,0.0144,< 0.001,0.020,True
+multiclass,tfidf vs surface,0.6444,0.6378,0.6509,< 0.001,0.020,True
+multiclass,svm vs tfidf,0.0075,0.0057,0.0095,< 0.001,0.020,True
+multiclass,tfidf vs nb,0.0997,0.0953,0.1041,< 0.001,0.020,True
+multiclass,roberta-base vs tfidf,0.0092,0.0059,0.0123,< 0.001,0.020,True

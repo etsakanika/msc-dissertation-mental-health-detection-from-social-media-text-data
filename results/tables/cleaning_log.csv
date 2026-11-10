@@ -1,0 +1,12 @@
+task,split,parser_skipped,raw,recovered_shifted,malformed_label,placeholder_fields,empty_or_short,label_conflicts,duplicates,overlap_with_train,final
+dreaddit,train,0,2838,0,0,0,4,4,13,0,2817
+dreaddit,test,0,715,0,0,0,0,0,0,3,712
+general,train,0,96536,2,550,1,3,0,230,0,95753
+general,test,0,24042,0,44,0,0,0,38,54,23906
+general,external,0,24052,0,55,0,0,0,3,4,23990
+suicidality,train,0,30256,0,0,1,1,23,55,0,30177
+suicidality,test,0,7565,0,0,0,0,4,1,24,7536
+bipolar,train,0,40400,0,197,0,1,0,146,0,40056
+bipolar,test,0,10052,0,0,0,0,0,31,15,10006
+multiclass,train,0,84245,2,251,2,0,0,28,0,83966
+multiclass,test,0,21076,1,78,0,0,0,2,14,20982

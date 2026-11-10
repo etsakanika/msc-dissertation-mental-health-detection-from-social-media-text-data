@@ -1,0 +1,6 @@
+task,majority,surface,tfidf,svm,nb,roberta-base
+dreaddit,0.5,0.71,0.822,0.825,0.837,0.896
+general,0.5,0.91,0.999,1.0,0.992,1.0
+suicidality,0.5,0.727,0.969,0.97,0.957,0.98
+bipolar,0.5,0.728,0.995,0.997,0.964,0.998
+multiclass,0.5,0.705,0.995,0.996,0.975,0.997

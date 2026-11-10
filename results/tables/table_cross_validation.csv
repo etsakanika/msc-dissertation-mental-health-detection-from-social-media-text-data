@@ -1,0 +1,4 @@
+task,model,CV mean,CV sd,CV min,CV max,test
+dreaddit,tfidf,0.77,0.018,0.756,0.797,0.718
+dreaddit,svm,0.767,0.016,0.752,0.793,0.728
+dreaddit,nb,0.677,0.035,0.637,0.719,0.656

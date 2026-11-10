@@ -1,0 +1,21 @@
+model,subreddit,n,stressed %,n not stressed,false-positive rate,recall (stressed),"mean P(distress), not stressed"
+roberta-base,r/almosthomeless,19,63.158,7,0.286,0.75,0.292
+roberta-base,r/anxiety,142,57.042,61,0.721,0.975,0.704
+roberta-base,r/assistance,66,31.818,45,0.2,0.619,0.199
+roberta-base,r/domesticviolence,72,65.278,25,0.56,0.809,0.544
+roberta-base,r/food_pantry,6,50.0,3,1.0,1.0,0.939
+roberta-base,r/homeless,52,34.615,34,0.235,0.556,0.248
+roberta-base,r/ptsd,126,64.286,45,0.844,0.938,0.845
+roberta-base,r/relationships,141,42.553,81,0.444,0.65,0.434
+roberta-base,r/stress,14,71.429,4,0.5,0.7,0.556
+roberta-base,r/survivorsofabuse,66,42.424,38,0.842,0.929,0.817
+tfidf,r/almosthomeless,19,63.158,7,0.286,0.667,0.44
+tfidf,r/anxiety,142,57.042,61,0.672,0.951,0.601
+tfidf,r/assistance,66,31.818,45,0.111,0.714,0.275
+tfidf,r/domesticviolence,72,65.278,25,0.28,0.66,0.374
+tfidf,r/food_pantry,6,50.0,3,0.333,1.0,0.442
+tfidf,r/homeless,52,34.615,34,0.176,0.611,0.29
+tfidf,r/ptsd,126,64.286,45,0.778,0.951,0.689
+tfidf,r/relationships,141,42.553,81,0.506,0.783,0.505
+tfidf,r/stress,14,71.429,4,0.75,0.7,0.608
+tfidf,r/survivorsofabuse,66,42.424,38,0.5,0.893,0.569

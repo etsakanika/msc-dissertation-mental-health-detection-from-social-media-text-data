@@ -1,0 +1,12 @@
+,dreaddit/train,dreaddit/test,general/train,general/test,general/external,suicidality/train,suicidality/test,bipolar/train,bipolar/test,multiclass/train,multiclass/test
+dreaddit/train,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+dreaddit/test,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+general/train,0.0,0.0,,0.0,0.0,524.0,105.0,4145.0,1019.0,10902.0,2616.0
+general/test,0.0,0.0,0.0,,0.0,134.0,25.0,979.0,268.0,2603.0,664.0
+general/external,0.0,0.0,0.0,0.0,,163.0,44.0,521.0,125.0,553.0,105.0
+suicidality/train,0.0,0.0,524.0,134.0,163.0,,0.0,3316.0,818.0,499.0,128.0
+suicidality/test,0.0,0.0,105.0,25.0,44.0,0.0,,795.0,204.0,135.0,26.0
+bipolar/train,0.0,0.0,4145.0,979.0,521.0,3316.0,795.0,,0.0,3232.0,831.0
+bipolar/test,0.0,0.0,1019.0,268.0,125.0,818.0,204.0,0.0,,836.0,217.0
+multiclass/train,0.0,0.0,10902.0,2603.0,553.0,499.0,135.0,3232.0,836.0,,0.0
+multiclass/test,0.0,0.0,2616.0,664.0,105.0,128.0,26.0,831.0,217.0,0.0,

@@ -1,0 +1,31 @@
+model,train,eval,regime,macro_f1,auroc,oracle_f1,sensitivity,specificity
+surface,general,general/test,in-domain,0.8489,0.9099,0.8486,0.8514,0.8464
+surface,general,general/external,external communities,0.8057,0.919,0.8571,0.9179,0.6983
+surface,general,dreaddit/test,cross-corpus,0.6164,0.7021,0.6646,0.8864,0.3878
+surface,dreaddit,general/test,cross-corpus,0.8188,0.8787,0.8202,0.8065,0.8312
+surface,dreaddit,general/external,cross-corpus,0.7956,0.8945,0.8317,0.8924,0.7025
+surface,dreaddit,dreaddit/test,in-domain,0.6625,0.7099,0.6677,0.7285,0.5977
+tfidf,general,general/test,in-domain,0.9864,0.9988,0.9855,0.9874,0.9853
+tfidf,general,general/external,external communities,0.9568,0.9895,0.9566,0.9493,0.9644
+tfidf,general,dreaddit/test,cross-corpus,0.6785,0.7453,0.6926,0.8338,0.5335
+tfidf,dreaddit,general/test,cross-corpus,0.8401,0.9053,0.8406,0.8035,0.8773
+tfidf,dreaddit,general/external,cross-corpus,0.8785,0.9415,0.8816,0.8704,0.8866
+tfidf,dreaddit,dreaddit/test,in-domain,0.7176,0.822,0.7338,0.7618,0.6735
+svm,general,general/test,in-domain,0.9918,0.9996,0.991,0.993,0.9905
+svm,general,general/external,external communities,0.9496,0.9872,0.9526,0.9257,0.9735
+svm,general,dreaddit/test,cross-corpus,0.669,0.7321,0.6776,0.7673,0.5743
+svm,dreaddit,general/test,cross-corpus,0.8282,0.8977,0.8303,0.8062,0.8504
+svm,dreaddit,general/external,cross-corpus,0.8677,0.9363,0.8737,0.874,0.8614
+svm,dreaddit,dreaddit/test,in-domain,0.7283,0.8251,0.7358,0.7922,0.6647
+nb,general,general/test,in-domain,0.9676,0.9923,0.9683,0.9865,0.9486
+nb,general,general/external,external communities,0.9641,0.9951,0.9764,0.9885,0.9398
+nb,general,dreaddit/test,cross-corpus,0.5337,0.7358,0.6748,0.9612,0.2245
+nb,dreaddit,general/test,cross-corpus,0.7492,0.9056,0.8418,0.9253,0.5868
+nb,dreaddit,general/external,cross-corpus,0.8017,0.9478,0.892,0.9483,0.6632
+nb,dreaddit,dreaddit/test,in-domain,0.6563,0.8375,0.7512,0.964,0.3965
+roberta-base,general,general/test,in-domain,0.9948,0.9998,0.9945,0.9955,0.994
+roberta-base,general,general/external,external communities,0.9608,0.9938,0.9702,0.9481,0.9735
+roberta-base,general,dreaddit/test,cross-corpus,0.6306,0.7063,0.6644,0.831,0.4519
+roberta-base,dreaddit,general/test,cross-corpus,0.8215,0.8748,0.8234,0.7396,0.9062
+roberta-base,dreaddit,general/external,cross-corpus,0.8803,0.9424,0.884,0.8196,0.9419
+roberta-base,dreaddit,dreaddit/test,in-domain,0.8157,0.8962,0.822,0.8698,0.7609

@@ -1,0 +1,9 @@
+# Versions used in the final run of the notebook (Google Colab, Python 3.13, NVIDIA T4 GPU).
+# Colab already provides these libraries; this file is for running the notebook elsewhere.
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy
+matplotlib==3.10.0
+torch==2.11.0
+transformers==5.21.0

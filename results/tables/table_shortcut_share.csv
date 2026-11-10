@@ -1,0 +1,6 @@
+task,surface F1,share vs tfidf,share vs roberta-base
+dreaddit,0.662,0.854,0.679
+general,0.849,0.789,0.779
+suicidality,0.669,0.577,0.557
+bipolar,0.682,0.538,0.529
+multiclass,0.295,0.287,0.284

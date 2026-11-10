@@ -1,0 +1,16 @@
+task,class,first-person %,absolutist %,posts with URL %
+dreaddit,negative (0),7.17,1.12,0.1
+dreaddit,positive (1),10.78,1.3,0.0
+general,Control,3.17,0.88,25.9
+general,Mental,10.05,1.28,3.2
+suicidality,non-suicidal,10.3,1.33,2.0
+suicidality,suicidal,13.29,1.87,0.3
+bipolar,non-bipolar,6.95,0.98,15.1
+bipolar,bipolar,10.05,1.22,1.3
+multiclass,Control,4.38,0.8,15.9
+multiclass,adhd,9.36,1.19,3.8
+multiclass,anxiety,10.52,1.4,1.0
+multiclass,bipolar,9.66,1.2,1.9
+multiclass,cptsd,9.93,1.28,3.6
+multiclass,depression,12.07,1.58,1.6
+multiclass,schizophrenia,8.74,1.12,6.5

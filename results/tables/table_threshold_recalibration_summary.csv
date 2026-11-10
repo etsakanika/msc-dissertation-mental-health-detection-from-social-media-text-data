@@ -1,0 +1,21 @@
+model,transfer,fixed 0.5,oracle,with 50 labels,labels for 90% of gap
+nb,dreaddit -> general/external,0.802,0.892,0.881,100.0
+nb,dreaddit -> general/test,0.749,0.842,0.827,100.0
+nb,general -> dreaddit/test,0.534,0.675,0.651,
+nb,general -> general/external,0.964,0.976,0.964,500.0
+roberta-base,dreaddit -> general/external,0.88,0.884,0.871,
+roberta-base,dreaddit -> general/test,0.821,0.823,0.812,
+roberta-base,general -> dreaddit/test,0.631,0.664,0.633,
+roberta-base,general -> general/external,0.961,0.97,0.955,500.0
+surface,dreaddit -> general/external,0.796,0.832,0.818,500.0
+surface,dreaddit -> general/test,0.819,0.82,0.804,
+surface,general -> dreaddit/test,0.616,0.665,0.634,
+surface,general -> general/external,0.806,0.857,0.842,500.0
+svm,dreaddit -> general/external,0.868,0.874,0.856,
+svm,dreaddit -> general/test,0.828,0.83,0.812,
+svm,general -> dreaddit/test,0.669,0.678,0.651,
+svm,general -> general/external,0.95,0.953,0.937,
+tfidf,dreaddit -> general/external,0.879,0.882,0.868,
+tfidf,dreaddit -> general/test,0.84,0.841,0.829,
+tfidf,general -> dreaddit/test,0.678,0.693,0.663,
+tfidf,general -> general/external,0.957,0.957,0.945,
